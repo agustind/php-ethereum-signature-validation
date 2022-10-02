@@ -14,8 +14,9 @@ $signature = new Ethsignature();
 // from the frontend, via Ethers.js or Web3.js,
 // the wallet 0x123456789 signs the message 'hello world'
 // and generates the signature string 'xxxxyyyyzzzz'
+
 $is_valid = $signature->verify('hello world', 'xxxxyyyyzzzz', '0x123456789');
-// $is_valid == true
+// true
 
 ```
 
