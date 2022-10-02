@@ -1,4 +1,4 @@
-## PHP library to validate Ethereum signatures
+## Validate Ethereum signatures from PHP
 
 If you want to authenticate a user via an Ethereum wallet from PHP, or restrict certain server-side functionalities to only allowed wallets,
 you can request for a signed message on the frontend using a library like Ethers.js or Web3.js and pass the wallet address and signature as parameters
