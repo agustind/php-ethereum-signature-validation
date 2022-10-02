@@ -11,9 +11,11 @@ to the server. This library will validate if the signature is valid and was inde
 use Agustind\Ethsignature;
 $signature = new Ethsignature();
 
-// from the frontend, via Ethers.js or Web3.js, the wallet 0x123456789 signs the message 'hello world' and generates the signature 'xxxxyyyyzzzz'
+// from the frontend, via Ethers.js or Web3.js,
+// the wallet 0x123456789 signs the message 'hello world'
+// and generates the signature string 'xxxxyyyyzzzz'
 $is_valid = $signature->verify('hello world', 'xxxxyyyyzzzz', '0x123456789');
-// true
+// $is_valid == true
 
 ```
 
