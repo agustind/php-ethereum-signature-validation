@@ -1,0 +1,21 @@
+{
+    "name": "agustind/ethsignature",
+    "type": "library",
+    "license": "MIT",
+    "require": {
+        "php": ">=7.3",
+        "kornrunner/keccak": "^1.1",
+        "simplito/elliptic-php": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Agustind\\Ethsignature\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Agu",
+            "email": "agustind@gmail.com"
+        }
+    ]
+}
