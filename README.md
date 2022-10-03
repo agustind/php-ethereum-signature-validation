@@ -21,7 +21,7 @@ $is_valid = $signature->verify('hello world', 'xxxxyyyyzzzz', '0x123456789');
 ```
 
 
-Donate with eth: 
+Donate with eth 🙏: 
 
 [![Ethereum](https://user-images.githubusercontent.com/725986/61891022-0d0c7f00-af09-11e9-829f-096c039bbbfa.png) 0x8cA54b378C177db1cfde63231f9eA32fa7943036][Ethereum]
 
