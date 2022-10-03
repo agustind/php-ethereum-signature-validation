@@ -11,7 +11,7 @@ to the server. This library will verify if the signature is valid and was indeed
 use Agustind\Ethsignature;
 $signature = new Ethsignature();
 
-// from the frontend, via Ethers.js or Web3.js,
+// from the frontend (via Ethers.js or Web3.js)
 // the wallet 0x123456789 signs the message 'hello world'
 // and generates the signature string 'xxxxyyyyzzzz'
 
