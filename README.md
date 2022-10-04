@@ -5,6 +5,10 @@ you can request for a signed message on the frontend using a library like Ethers
 to the server. This library will verify the signature is valid and was indeed created by the specified wallet.
 ## Usage
 
+```bash
+composer require agustind/ethsignature
+```
+
 ```php
 <?php
 
