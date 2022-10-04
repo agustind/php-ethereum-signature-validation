@@ -1,6 +1,6 @@
 <?php
 
-namespace Agustind\Ethsignature;
+namespace Agustind;
 
 use Elliptic\EC;
 use kornrunner\Keccak;
