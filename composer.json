@@ -9,9 +9,10 @@
     },
     "autoload": {
         "psr-4": {
-            "Agustind\\Ethsignature\\": "src/"
+            "Agustind\\EthSignature\\": "src/"
         }
     },
+    
     "authors": [
         {
             "name": "Agu",
